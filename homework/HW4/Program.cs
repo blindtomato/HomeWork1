@@ -8,11 +8,11 @@ int number3 = Convert.ToInt32 (Console.ReadLine());
 if (number1 > number2)
 {
     if (number1 > number3)
-        Console.WriteLine("Первое число больше остальных");
+        Console.WriteLine($"Наибольшее число из введенных {number1}");
     else 
-        Console.WriteLine("Третье число больше остальных");
+        Console.WriteLine($"Наибольшее число из введенных {number3}");
 }
 else if (number2 > number3)
-        Console.WriteLine("Второе число больше остальных");
+        Console.WriteLine($"Наибольшее число из введенных {number2}");
      else 
-        Console.WriteLine("Третье число больше остальных");
+        Console.WriteLine($"Наибольшее число из введенных {number3}");
